@@ -32,7 +32,7 @@ ___
 
 #### 1. Configuración módulo [Yargs](https://www.npmjs.com/package/yargs) para crear flags.
 #### 2. Modularización de código NodeJS + TS siguiendo _arquitectura limpia_ y _código limpio_.
-#### 3. Pruebas unitarias y de integración usando Jest + TS usando _Mocks_, _Spies_, _Métodos de expectación_,etc.
+#### 3. Pruebas unitarias usando Jest + TS usando _Mocks_, _Spies_, _Métodos de expectación_,etc.
 
 ___
 

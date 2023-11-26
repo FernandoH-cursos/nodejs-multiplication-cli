@@ -16,7 +16,9 @@ export class CreateTable implements CreateTableUseCase {
     for (let i = 1; i <= limit; i++) {
       const multiplication = base * i;
 
-      outputMessage += `${base} x ${i} = ${multiplication}\n`;
+      outputMessage += `${base} x ${i} = ${multiplication}`;
+
+      if(i < limit) outputMessage += "\n";
     }
 
     return outputMessage;
